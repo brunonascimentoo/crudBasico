@@ -68,11 +68,12 @@ $(function () {
             let registro = {};
             registro.nome = nome;
             registro.sobrenome = sobrenome;
-            registro.dtNascimento = dtNascimento;
+            registNatro.dscimento = dtNascimento;
             registro.formacao = formacao;
 
             registro.ID = dados.length + 1;
             dados.push(registro);
+            alert("Registro salvo com sucesso");
         } 
         else {
             dados.forEach(function(item) {
@@ -81,11 +82,11 @@ $(function () {
                     item.sobrenome = sobrenome;
                     item.dtNascimento = dtNascimento;
                     item.formacao = formacao;
+                    alert("Registro atualizado")
                 }
             })
         }
 
-        alert("Registro salvo com sucesso");
         $("#modalRegistro").modal("hide");
 
         $("#hdID").val("0");
