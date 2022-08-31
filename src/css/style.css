@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8ffff;
+    color: #000;
+}
+
+.title {
+    text-align: center;
+    padding: 28px;
+}
+
+
+.button-add {
+    display: flex;
+    justify-content: center;
+    padding: 25px;    
+}
+
+
+.btn-largura {
+    width: 50px;
+}
