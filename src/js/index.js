@@ -68,7 +68,7 @@ $(function () {
             let registro = {};
             registro.nome = nome;
             registro.sobrenome = sobrenome;
-            registNatro.dscimento = dtNascimento;
+            registro.dtNascimento = dtNascimento;
             registro.formacao = formacao;
 
             registro.ID = dados.length + 1;
